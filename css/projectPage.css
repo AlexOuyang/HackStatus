@@ -1,0 +1,223 @@
+#project-header {
+    background: #1f2532;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: #1f2532;
+}
+
+.text-white {
+    color: white;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #1f2532;
+    border-color: transparent;
+}
+
+
+/* Override button hover effect to have no bordeer */
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #181d28;
+    border-color: transparent;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 0px solid #ddd;
+}
+
+
+/* Share social buttons*/
+
+.btn-twitter {
+    /*    background: white;*/
+    border-radius: 0;
+    color: #fff
+}
+
+.btn-twitter:link,
+.btn-twitter:visited {
+    color: #00acee
+}
+
+.btn-twitter:active,
+.btn-twitter:hover {
+    background: #00acee;
+    color: #fff
+}
+
+.btn-facebook {
+    /*    background: #fff;*/
+    border-radius: 0;
+    color: #fff
+}
+
+.btn-facebook:link,
+.btn-facebook:visited {
+    color: #3b5998
+}
+
+.btn-facebook:active,
+.btn-facebook:hover {
+    background: #3b5998;
+    color: #fff
+}
+
+.btn-googleplus {
+    /*    background: #fff;*/
+    border-radius: 0;
+    color: #fff
+}
+
+.btn-googleplus:link,
+.btn-googleplus:visited {
+    color: #e93f2e
+}
+
+.btn-googleplus:active,
+.btn-googleplus:hover {
+    background: #e93f2e;
+    color: #fff
+}
+
+.btn-linkedin {
+    /*    background: #fff;*/
+    border-radius: 0;
+    color: #fff
+}
+
+.btn-linkedin:link,
+.btn-linkedin:visited {
+    color: #0e76a8
+}
+
+.btn-linkedin:active,
+.btn-linkedin:hover {
+    background: #0e76a8;
+    color: #fff
+}
+
+
+/*Social sharing icon customization*/
+
+.btn-sitename {
+    background-color: #000;
+    border-radius: 0;
+    color: #fff
+}
+
+.btn-sitename:link,
+.btn-sitename:visited {
+    color: #fff
+}
+
+.btn-sitename:active,
+.btn-sitename:hover {
+    background-color: #000;
+    color: #fff
+}
+
+
+/**
+ * Collaborator component
+ */
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #51D2B7;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+.rank-label-container {
+    margin-top: -10px;
+    /* z-index: 1000; */
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+
+
+/* Like Buttons*/
+
+.like-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Box around panel titles */
+
+.panel-title-label {
+/*    background-color: #919191;*/
+    background-color: rgb(81, 210, 183);
+/*    background-color: #fb3468;*/
+    padding: 5px 5px 5px 10px;
+    /*    border-radius: 27px;*/
+}
+
+.panel-title-text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+/* Backgound panel */
+
+.background-panel {
+    background: #1f2532;
+    padding: 40px;
+    max-width: 90%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 4px rgba(19, 35, 47, 0.5);
+}
+
+
+/* Code Repository */
+
+.code-repository {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.code-repository a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}

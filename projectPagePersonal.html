@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>This is the project description page</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
+
+
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/profileHeader.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/loadingAnimation.css">
+    <link rel="stylesheet" href="css/projectPage.css">
+
+
+    <!--   This is the page loading icon   -->
+    <table id="doc-loader">
+        <tr>
+            <td>
+                <img src="images/Preloader_3.gif" alt="loading..." />
+            </td>
+        </tr>
+    </table>
+
+
+    <!-- This is the navigation bar -->
+    <nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Logo that takes the user to the main page-->
+                <a class="navbar-brand active" href="#">
+                    <!--                    <img alt="Brand" class="navi-logo" src="images/logo.png">-->
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!-- left navi buttons-->
+                </ul>
+
+                <!--  User Profile Drop Down Menu and right navi buttons-->
+                <ul class="nav navbar-nav navbar-right navi-color">
+
+                    <!--   Sign in button shows up if the user is not signed in, other wise New Project and DropDown menu shows up-->
+                    <li>
+                        <a href="#"> Sign In <span class="glyphicon glyphicon-arrow-right"></span></a>
+                    </li>
+
+
+                    <li>
+                        <a href="#"><span class="glyphicon glyphicon-plus"></span> New Project</a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span>Alex</span>
+                            <div class="list-group-item-icon">
+                                <img class="media-object img-circle img-responsive" style="width: 40px; height: 40px;" src="images/me.png" />
+                            </div>
+                            <!--                        <span class="caret"></span>-->
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Settings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <!--   Custom Button  -->
+    <div id="create-project" class="button">
+        <h1>H</h1>
+        <!--        <span class="glyphicon glyphicon-plus"></span> New Project</a>-->
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div id ="slideshow-container" class="slideshow">
+            <div id="slideshow" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-responsive" src="images/insatiableSpider.png" alt="First Slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>SlideShow 1</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="images/insatiableSpider2.png" alt="Second Slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>SlideShow 2</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="images/chenxing.png" alt="Second Slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>SlideShow 2</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Carousel controller -->
+                <div class="controlsBlock">
+                    <div class="controls">
+                        <a class="left carousel-control" href="#slideshow" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a class="right carousel-control" href="#slideshow" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <!--<a class="left carousel-control" href="#slideshow" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+ <a class="right carousel-control" href="#slideshow" data-slide="next"><i class="fa fa-chevron-right"></i></a>-->
+                        <!--
+                                <div class="carousel-indicators">
+                                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                                    <li data-target="#slideshow" data-slide-to="1"></li>
+                                    <li data-target="#slideshow" data-slide-to="2"></li>
+                                </div>
+-->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <ul class="list-group">
+        <li class="list-group-item shadow">
+            <button type="button" class="btn btn-default " title="like"><span class="glyphicon glyphicon-heart"></span></button>
+            <span class="badge">42</span>
+            <button type="button" class="btn btn-default pull-right" title="fullscreen"><span class="glyphicon glyphicon-fullscreen"></span></button>
+        </li>
+
+        <a> <img class="media-object img-responsive" src="images/lowPoly.jpg" /> </a>
+
+        <li class="list-group-item background-color1 project-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </li>
+
+        <li class="list-group-item pull-right">
+            <h4 class="media-heading move-text-center">HTML5 2D Game Engine</h4>
+        </li>
+
+        <li class="list-group-item list-group-item-picture">
+            <span class="label label-info">Tag1</span>
+            <span class="label label-info">Tag2</span>
+        </li>
+    </ul>
+
+
+
+
+
+    <!--    This is the footer  -->
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">HackStatus © 2015
+                <a href="">HackStatus.io</a>
+            </p>
+        </div>
+    </div>
+
+
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js'></script>
+
+    <script src="js/navigation.js"></script>
+    <script src='js/project.js'></script>
+
+
+
+
+
+    </body>
+
+</html>
