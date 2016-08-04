@@ -6,7 +6,7 @@ HackStatus is a website that allows its users to share hackathon projects and pr
 
 
 
-Those are the front end stuff
+I did all the front end stuff.
 
 
 <img src = "https://github.com/AlexOuyang/HackStatus/blob/master/screenShots/logo.png?raw=true">
